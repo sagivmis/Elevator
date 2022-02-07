@@ -1,0 +1,9 @@
+.queue {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

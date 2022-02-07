@@ -1,0 +1,16 @@
+.lift {
+    background-color: brown;
+    border-radius: 4px;
+    position: relative;
+    height: 70vh;
+    transition: all 3s;
+    color: #fff;
+    width: 30vw;
+}
+
+.elv {
+    position: relative;
+    top: 10vh;
+    width: 200px;
+    height: 40vh;
+}

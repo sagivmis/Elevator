@@ -1,0 +1,21 @@
+.floor-outer {
+    /* margin: 0;
+    padding: 0; */
+}
+
+.floor-outer {
+    /* height: 20px; */
+    /* padding: 40px; */
+    height: 70vh;
+    width: 30vw;
+    background-color: #eeefff;
+    margin: 5vh 0 0 0;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.3);
+    /* display: inline; */
+}
+
+.floor-inner {
+    z-index: 100;
+}

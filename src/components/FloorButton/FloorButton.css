@@ -1,0 +1,37 @@
+.button-container,
+.button-wrapper {
+    display: inline;
+}
+
+.button-wrapper {
+    /* padding: 0.7px; */
+}
+
+.button-wrapper button {
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+
+    border: 3px solid #79807f;
+    /* background-color: #fff; */
+    cursor: pointer;
+    font-size: 1.5em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    transition: all 0.8s;
+}
+
+.button-wrapper button:hover {
+    border: 2px solid #79807f;
+    background-color: #79807f;
+}
+
+.lobby button {
+    /* background-color: #818988; */
+    /* border: 6px solid #79807f; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* width: 00px; */
+    /* padding: 18px; */
+    /* border: 12px solid #79807f; */
+}
