@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { connect } from "react-redux";
 import elv from "./elv.png";
 import "./Lift.css";
-
+import { G, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, DEFAULT } from "./liftCfg";
 const Lift = ({ floor }) => {
     // const [queue, setQueue] = useState();
     const flr = floor;
@@ -14,31 +14,31 @@ const Lift = ({ floor }) => {
 
         switch (flr) {
             case "G":
-                lift.style.bottom = 70 + "vh";
+                lift.style.bottom = G + "vh";
                 break;
             case "1":
-                lift.style.bottom = 145 + "vh";
+                lift.style.bottom = ONE + "vh";
                 break;
             case "2":
-                lift.style.bottom = 220 + "vh";
+                lift.style.bottom = TWO + "vh";
                 break;
             case "3":
-                lift.style.bottom = 295 + "vh";
+                lift.style.bottom = THREE + "vh";
                 break;
             case "4":
-                lift.style.bottom = 370 + "vh";
+                lift.style.bottom = FOUR + "vh";
                 break;
             case "5":
-                lift.style.bottom = 445 + "vh";
+                lift.style.bottom = FIVE + "vh";
                 break;
             case "6":
-                lift.style.bottom = 520 + "vh";
+                lift.style.bottom = SIX + "vh";
                 break;
             case "7":
-                lift.style.bottom = 595 + "vh";
+                lift.style.bottom = SEVEN + "vh";
                 break;
             default:
-                lift.style.bottom = 60 + "vh";
+                lift.style.bottom = DEFAULT + "vh";
         }
     }, [flr]);
     return (
