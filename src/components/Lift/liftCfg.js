@@ -1,9 +1,9 @@
 export const G = 70;
-export const ONE = 145;
-export const TWO = 220;
-export const THREE = 295;
-export const FOUR = 370;
-export const FIVE = 445;
-export const SIX = 520;
-export const SEVEN = 595;
+export const ONE = G + 75;
+export const TWO = ONE + 75;
+export const THREE = TWO + 75;
+export const FOUR = THREE + 75;
+export const FIVE = FOUR + 75;
+export const SIX = FIVE + 75;
+export const SEVEN = SIX + 75;
 export const DEFAULT = 60;
